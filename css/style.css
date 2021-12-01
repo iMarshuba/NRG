@@ -183,7 +183,7 @@ a {
   text-align: left;
 }
 
-.calculator > div > div .initial-data form div > p {
+.calculator > div > div .initial-data form div > label {
   font-size: 15px;
   color: #232323;
   font-weight: 400;

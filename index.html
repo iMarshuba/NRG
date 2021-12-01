@@ -102,13 +102,14 @@
 						<p>Впишите желаемую мощность солнечной электростанции (кВт)<br> и среднее потребление электроэнергии (кВт/мес)</p>
 						<form class="" action="index.html" method="post">
 							<div class="row">
-								<p class="col-5">Мощность<br>электростанции</p>
-								<input class="col-3" type="text" name="power" value="">
+
+								<label class="col-5" for="power">Мощность<br>электростанции</p></label>
+								<input class="col-3" type="text" name="power" id="power" value="">
 								<p class="col-1">кВт.</p>
 							</div>
 							<div class="row mid">
-								<p class="col-5">Среднее потребление<br>электроэнергии</p>
-								<input class="col-3" type="text" name="consumption" value="">
+								<label class="col-5" for="consumption">Среднее потребление<br>электроэнергии</label>
+								<input class="col-3" type="text" name="consumption" id="consumption" value="">
 								<p class="col-1">кВт.</p>
 							</div>
 							<button type="submit" name="button"></button>
